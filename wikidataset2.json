@@ -1,0 +1,28 @@
+{
+  "errors": [],
+  "data": {
+    "Modules.conf.xml": {
+      "docs": "",
+      "depends": [
+        "Misc._Dialplan_Tools_unset"
+      ],
+      "type": "Others",
+      "name": "Modules.conf.xml",
+      "dependedOnBy": [
+        "Misc._Dialplan_Tools_unset",
+        "Modules.conf.xml"
+      ]
+    },
+    "Misc._Dialplan_Tools_unset": {
+      "docs": "",
+      "depends": [
+        "Modules.conf.xml"
+      ],
+      "type": "Misc",
+      "name": "Misc._Dialplan_Tools_unset",
+      "dependedOnBy": [
+        "Modules.conf.xml"
+      ]
+    }
+  }
+}
